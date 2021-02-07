@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Sort by Review Count",
+    "version": "1.0",
+    "description": "Sort Amazon product search results by descending review count",
+    "homepage_url": "https://github.com/MidasBobidas/sort-by-review-count",
+
+    "icons": {
+        "48": "icons/reviewcount.png",
+        "96": "icons/reviewcoutn@2x.png"
+    },
+
+    "permissions": [
+        "tabs"
+    ],
+
+    "browser_action":{
+        "default_icon": "icons/star-empty-38.png",
+        "default_title": "Sort Amazon by Review Count"
+    },
+
+    "background":{
+        "scripts": ["reviewcount.js"]
+    }
+}
